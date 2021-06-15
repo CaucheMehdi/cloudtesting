@@ -19,7 +19,6 @@ steps:
     location: 'France Central'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/CaucheMehdi/cloudtesting/master/azuredeploy_storage.json'
-    overrideParameters: '-projectName myArmPipeline'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployArmTemplate'
   displayName: 'Run first Arm Deployment Pipeline'
